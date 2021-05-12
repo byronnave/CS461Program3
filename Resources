@@ -4,8 +4,6 @@ https://stackoverflow.com/questions/63494986/how-to-improve-accuracy-of-a-feedfo
 https://towardsdatascience.com/how-do-we-train-neural-networks-edd985562b73
 http://neuralnetworksanddeeplearning.com/chap1.html
 https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f
-https://www.youtube.com/watch?v=aircAruvnKk
-https://www.youtube.com/watch?v=4pUDiD4tOsM
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 https://mlnotebook.github.io/post/transfer-functions/
 https://www.geeksforgeeks.org/softmax-regression-using-tensorflow/
@@ -15,4 +13,6 @@ https://stackoverflow.com/questions/51200361/constructing-a-keras-model
 https://www.tensorflow.org/api_docs/python/tf/keras/Model
 https://www.tensorflow.org/guide/keras/train_and_evaluate
 https://stackoverflow.com/questions/47555829/preprocess-input-method-in-keras
-
+https://keras.io/api/layers/activations/
+https://github.com/Achronus/Keras-Examples/blob/master/deep-learning/ann/ann-keras.py
+https://github.com/tuanavu/deep-learning-a-z/blob/master/DeepLearningA-Z/02-supervised-deep-learning/01-Artificial-Neural-Networks-ANN/Artificial_Neural_Networks/evaluating_improving_tuning.py
