@@ -1,0 +1,6 @@
+rom keras.models import Sequential 
+from keras.layers import Dense
+FeedForNet = Sequential()
+FeedForNet.add(Dense(8, input_dim = len(train_labels[0,:]), activation = 'relu'))
+FeedForNet.add(Dense(4, activation='relu'))
+FeedForNet.add(Dense(1, activation= 'sigmoid'))
