@@ -14,9 +14,13 @@ and this line to compile the model
 in the last minutes; i tried to use K-fold to use my  input features,
 create 2 hidden layers with 8 nodes each and create 2 output nodes that use softmax activation function. 
 After running the model my goal was to use  a batch_szie  of 10 and run 150 epochs, 
-after which I would try to use scikit-learn to calculate acracies via cross_val_score.
+after which I would try to use scikit-learn to calculate acuracies via cross_val_score.
 i was unable to finish this step, but theory works well
 Possible Inaccuracies
 the data set is small, and the network isnt that efficient ( more layers more hungry), and we can correct them by augmenting our data set and normalize it.
 i replaced pretty much all the values with either 0 or 1
-and then sava the data frame
+and then sava the data frame. then saved the target value for later use, then removed it from the datafame.
+I then stratified the variables to prevent high bias and split the test and train data set so by .85/.15
+Once that was done, then split the training file again with the validation file so the validation file would receive .15 from the remaining test set.
+After standardizing the variables, I began building my neural network.
+
