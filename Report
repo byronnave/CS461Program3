@@ -1,0 +1,22 @@
+Once you’ve built your model, write a short report describing your model (how many layers? How did 
+you train it? How did you cross-validate? Etc) and reporting its overall accuracy. Provide references for
+any code you used that you did not write yourself. Submit your report along with your source code and 
+cleaned data file.
+
+
+The input layer will have 8 neurons, there is one hidden layer with 4 neurons. 
+I attempted to create an outer layer with 2 neurons using softmax, however, I was not able to get it to function,
+so I swapped to using 1 neuron in the output layer and using sigmoid. 
+I then compiled the data using binary_crossentropy and SGD as the optimizer. 
+When the model was completed, the output was an accuracy ranging between 75% - 85%.
+model.compile(loss= 'binary_crossentropy', optimizer='SGD', metrics = ['accuracy'] )
+and this line to compile the model
+in the last minutes; i tried to use K-fold to use my  input features,
+create 2 hidden layers with 8 nodes each and create 2 output nodes that use softmax activation function. 
+After running the model my goal was to use  a batch_szie  of 10 and run 150 epochs, 
+after which I would try to use scikit-learn to calculate acracies via cross_val_score.
+i was unable to finish this step, but theory works well
+Possible Inaccuracies
+the data set is small, and the network isnt that efficient ( more layers more hungry), and we can correct them by augmenting our data set and normalize it.
+i replaced pretty much all the values with either 0 or 1
+and then sava the data frame
